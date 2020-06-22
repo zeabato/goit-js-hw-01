@@ -2,14 +2,14 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message = prompt('pls, enter password:');
 
-switch (true){
-  case ADMIN_PASSWORD === message:
+switch (message){
+  case ADMIN_PASSWORD:
     alert('Ласкаво просимо!');
     break;
-  case message === null:
+  case null:
     alert ('Скасовано користувачем!');
     break;
-  case ADMIN_PASSWORD !== message:
+  default:
     alert('Доступ заборонений, невірний пароль!');
     break; 
 }
