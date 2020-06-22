@@ -9,7 +9,7 @@ switch (true){
   case message === null:
     alert ('Скасовано користувачем!');
     break;
-  case ADMIN_PASSWORD != message:
+  case ADMIN_PASSWORD !== message:
     alert('Доступ заборонений, невірний пароль!');
     break; 
 }

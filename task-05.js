@@ -6,20 +6,20 @@ nameCountry = nameCountry.toLowerCase();
 
 
 
-switch (true){
-  case nameCountry === 'китай':
+switch (nameCountry){
+  case 'китай':
     alert('Доставка в Китай буде коштувати 100 кредитів');
     break;
-  case nameCountry === 'чілі':
+  case 'чілі':
     alert('Доставка в Чілі буде коштувати 250 кредитів');
     break;
-  case nameCountry === 'австралія':
+  case 'австралія':
     alert('Доставка в Австралію буде коштувати 170 кредитів');
     break;
-  case nameCountry === 'індія':
+  case 'індія':
     alert('Доставка в Індію буде коштувати 80 кредитів');
     break;
-  case nameCountry === 'ямайка':
+  case 'ямайка':
     alert('Доставка в Ямайку буде коштувати 120 кредитів');
     break;
   default:
